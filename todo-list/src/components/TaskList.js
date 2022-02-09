@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import ToDoRow from '../model/ToDoRaw'
+import ToDoRow from '../model/ToDoRow'
 import ReactModal from 'react-modal'
 import '../css/taskList.css'
 
@@ -97,6 +97,7 @@ const Row = ({index, row, toDoList, onToDoListChange}) => {
         </div>
     )
 }
+
 const TaskList = ({toDoList, onToDoListChange}) => {
 
     return (

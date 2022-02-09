@@ -12,14 +12,18 @@ UI shall contain a list of todo items and controls to modify the list:
 Components:
 
 1. Title
-2. 'Add' form: including title and description, adding new ToDo's
-3. ToDo row: card view with title and description, and has 'done' checkbox, edit button and delete button
+2. Form: including title and description, adding new ToDo's
+3. TaskList: row view with title and description, and has 'done' checkbox, edit button and delete button
+   1. Row: display the entire content depending on `isDone` property of ToDoRow
+   2. DeleteRow: display the title and description in strike-through text
 
 
 ## Preview
 Main:
+
 ![main](img/pre1.png)
 
 
 Edit modal:
+
 ![edit](img/pre2.png)
