@@ -27,3 +27,11 @@ Main:
 Edit modal:
 
 ![edit](img/pre2.png)
+
+Done view:
+
+![done](img/pre3.png)
+
+Delete:
+
+![delete](img/pre4.png)
